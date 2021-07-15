@@ -10,7 +10,7 @@ function __init__()
     JLLWrappers.@init_library_product(
         libamd_comgr,
         "lib/libamd_comgr.so",
-        nothing,
+        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()
