@@ -4,12 +4,12 @@ export libamd_comgr
 using hsa_rocr_jll
 using ROCmDeviceLibs_jll
 JLLWrappers.@generate_wrapper_header("ROCmCompilerSupport")
-JLLWrappers.@declare_library_product(libamd_comgr, "libamd_comgr.so.1")
+JLLWrappers.@declare_library_product(libamd_comgr, "libamd_comgr.so.2")
 function __init__()
     JLLWrappers.@generate_init_header(hsa_rocr_jll, ROCmDeviceLibs_jll)
     JLLWrappers.@init_library_product(
         libamd_comgr,
-        "lib/libamd_comgr.so",
+        "lib64/libamd_comgr.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
