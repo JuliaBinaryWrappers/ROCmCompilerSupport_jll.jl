@@ -1,20 +1,20 @@
 [[ROCmCompilerSupport]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bfa811018f95cdab2fa90512eee59c0fc9d1c728"
+git-tree-sha1 = "9eb2f2954cb2d9d79636da80511fca9802d7f2cd"
 libc = "glibc"
 os = "linux"
 
     [[ROCmCompilerSupport.download]]
-    sha256 = "48ed26fd279a5f1eeb7ba3fa62fa8659c99f9cd93f38fc9d3719b15271b2e2c1"
-    url = "https://github.com/JuliaBinaryWrappers/ROCmCompilerSupport_jll.jl/releases/download/ROCmCompilerSupport-v4.2.0+1/ROCmCompilerSupport.v4.2.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "f17301fa7b4ed42719eb2110a06e1f8135e9bd450281d2301c82d71aedc7157e"
+    url = "https://github.com/JuliaBinaryWrappers/ROCmCompilerSupport_jll.jl/releases/download/ROCmCompilerSupport-v4.5.2+0/ROCmCompilerSupport.v4.5.2.x86_64-linux-gnu-cxx11.tar.gz"
 [[ROCmCompilerSupport]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "cfb4e06bdad9ca5d94eaeffa2ed93fb12718d87d"
+git-tree-sha1 = "f15744404fcecffc7f6fce1f89dfed130dc273a8"
 libc = "musl"
 os = "linux"
 
     [[ROCmCompilerSupport.download]]
-    sha256 = "03a8b87e133a1f47b0e4e54c66a1d0c7c8aebc3597ece8fa89cfde18877396e9"
-    url = "https://github.com/JuliaBinaryWrappers/ROCmCompilerSupport_jll.jl/releases/download/ROCmCompilerSupport-v4.2.0+1/ROCmCompilerSupport.v4.2.0.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "49a8adcad1c593b311b5570c1440fcefef76f02c3e74004ed54d42d35f72da51"
+    url = "https://github.com/JuliaBinaryWrappers/ROCmCompilerSupport_jll.jl/releases/download/ROCmCompilerSupport-v4.5.2+0/ROCmCompilerSupport.v4.5.2.x86_64-linux-musl-cxx11.tar.gz"
