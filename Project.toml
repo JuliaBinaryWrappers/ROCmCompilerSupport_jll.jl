@@ -1,10 +1,9 @@
 name = "ROCmCompilerSupport_jll"
 uuid = "8fbdd1d2-db62-5cd0-981e-905da1486e17"
-version = "5.2.3+1"
+version = "5.4.4+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 ROCmDeviceLibs_jll = "873c0968-716b-5aa7-bb8d-d1e2e2aeff2d"
 hsa_rocr_jll = "dd59ff1a-a01a-568d-8b29-0669330f116a"
@@ -13,5 +12,5 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.9"
-ROCmDeviceLibs_jll = "5.2.3"
-hsa_rocr_jll = "5.2.3"
+ROCmDeviceLibs_jll = "5.4.4"
+hsa_rocr_jll = "5.4.4"
